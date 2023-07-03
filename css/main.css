@@ -21,7 +21,7 @@ html, body {
 header {
   height: 300px;
   width: 100%;
-  background: #e3e3e3;
+  background: lightgray;
 }
 
 
@@ -34,15 +34,15 @@ header {
 }
 
 #column-1 {
-  background: pink;
+  background: lightslategray;
 }
 
 #column-2 {
-  background: yellow;
+  background: slategray;
 }
 
 #column-3 {
-  background: lightblue;
+  background: darkgray;
 }
 
 
@@ -60,19 +60,22 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: purple;
+    background-color: #edd6d6;
   }
 
   #column-1 {
-    background-color:greenyellow ;
+    background-color:rgb(248, 203, 210);
+    width: 33.333%;
   }
 
   #column-2 {
-    background-color:coral;
+    background-color:lightpink;
+    width: 33.333%;
   }
 
   #column-3 {
-    background-color: royalblue;
+    background-color: pink;
+    width: 33.333%;
   }
 
   footer {
@@ -101,7 +104,7 @@ footer {
   }
 
   footer {
-    background-color:seashell;
+    background-color:rgb(2, 60, 27);
   }
    
 }
